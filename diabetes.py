@@ -39,4 +39,5 @@ def predict():
     # return render_template('diabform.html', result = res)
 
 #run the diabetes file
-diabetes.run(debug=True)
+if __name__ =='__main__': 
+    diabetes.run(debug=True)
