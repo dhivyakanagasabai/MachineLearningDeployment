@@ -3,7 +3,7 @@ import joblib
 
 diabetes = Flask(__name__)
 
-model = joblib.load('logisticModel_1.pkl')
+model = joblib.load('diab_model.pkl')
 
 @diabetes.route('/')
 def home():
